@@ -1,0 +1,94 @@
+.navbar{
+  background: #000;
+}
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/image3.jpeg');
+  background-size: cover;
+}
+#home-icon i{
+  font-size: 3rem;
+}
+#home-getstarted{
+  background: url(../img/bg1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.dark-overlay{
+  background: rgba(0, 0, 0, 0.7);
+}
+/*home info*/
+#home-info img{
+  border-radius: 6px;
+}
+/*home vedio*/
+#home-vedio{
+  background: url(../img/people.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home-vedio i{
+  font-size: 40px;
+}
+#home-vedio h2{
+  color: #fff;
+}
+#footer-section{
+  background: #000;
+}
+/*ABOUT US PAGE*/
+#header{
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+  background-position: top;
+}
+
+.slick-prev:before,
+.slick-next:before{
+  color: #000;
+}
+/*Icon box*/
+#icon-box i{
+  font-size: 50px;
+}
+#about-section img{
+  border-radius: 50%
+}
+#footer{
+  background: #000;
+}
+
+@media(max-width: 480px){
+  .carousel h2{
+    font-size: 2.5rem;
+  }
+  .carousel-caption{
+    bottom: -25px;
+  }
+}
+@media(max-width: 576px){
+  #home-info i{
+    margin-top: 3rem;
+  }
+  #home-info{
+    text-align: center;
+  }
+}
+@media(max-width: 345px){
+  .pb-5,
+  .py-5{
+    padding-bottom: 5rem !important;
+  }
+}
